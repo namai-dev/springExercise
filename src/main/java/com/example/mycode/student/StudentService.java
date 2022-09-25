@@ -26,4 +26,9 @@ public class StudentService {
 
         return studentRepository.findAll();
     }
+    
+    public void deleteStudent(Long id){
+        //TODO: Check if the student with the provided id is present.
+    repository.deleteById(id);
+    }
 }
